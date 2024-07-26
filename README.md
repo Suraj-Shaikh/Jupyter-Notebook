@@ -12,3 +12,9 @@ This Python script converts all pages of PDF files in a specified directory into
     Python 3.x
     pdf2image library
     Pillow library
+
+1. Import Libraries
+
+import os
+from pdf2image import convert_from_path
+from PIL import Image
